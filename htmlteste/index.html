@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Teste</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Teste de página HTML com CSS e BS</h1>
+    </header>
+    <main class="principal">
+        <nav class="navi">
+            <h3>Menu</h3>
+            <ul role="tablist">
+                <li class="nav-item" role="presentation"><a href="Home" class="nav-link active" data-bs-toggle="tab" data-bs-target="#Home">Home</a></li>
+                <li class="nav-item" role="presentation"><a href="Sobre" class="nav-link" data-bs-toggle="tab" data-bs-target="#Sobre">Sobre</a></li>
+                <li class="nav-item" role="presentation"><a href="Contato" class="nav-link" data-bs-toggle="tab" data-bs-target="#Contato">Contato</a></li>
+                <li class="nav-item" role="presentation"><a href="FAQ" class="nav-link" data-bs-toggle="tab" data-bs-target="#FAQ">FAQ</a></li>
+            </ul>
+        </nav>
+
+        <div class="tab-content">
+            <div class="tab-pane active show" id="Home" role="tabpanel" tabindex="0">
+                <div></div>
+            </div>
+
+            <div class="tab-pane" id="Sobre" role="tabpanel" tabindex="0">
+                <div></div>
+            </div>
+
+            <div class="tab-pane" id="Contato" role="tabpanel" tabindex="0">
+                <div>
+                    <a href="https://www.instagram.com/nicolas_lis_mar/"><img src="assets/img/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+
+            <div class="tab-pane" id="FAQ" role="tabpanel" tabindex="0">
+                <div></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
