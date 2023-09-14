@@ -1,0 +1,22 @@
+CRITICAL - 2023-09-14 18:02:06 --> Invalid file: "tester.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tester.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tester', [], true)
+ 3 APPPATH\Controllers\Tester.php(11): view('tester')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Tester->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tester))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2023-09-14 19:05:04 --> Array to string conversion
+in APPPATH\Views\myFunctionNlm.php on line 2.
+ 1 APPPATH\Views\myFunctionNlm.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\xampp\\htdocs\\ci4\\app\\Views\\myFunctionNlm.php', 2)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\xampp\\htdocs\\ci4\\app\\Views\\myFunctionNlm.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('myFunctionNlm', [], true)
+ 5 APPPATH\Controllers\Tester.php(32): view('myFunctionNlm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Tester->myFunctionNlm()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tester))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\ci4\\public\\index.php')
