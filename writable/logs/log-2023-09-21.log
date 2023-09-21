@@ -1,0 +1,12 @@
+CRITICAL - 2023-09-21 19:34:50 --> Undefined property: stdClass::$ativa
+in APPPATH\Views\myFunctionNlm.php on line 30.
+ 1 APPPATH\Views\myFunctionNlm.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ativa', 'E:\\xampp\\htdocs\\ci4\\app\\Views\\myFunctionNlm.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\xampp\\htdocs\\ci4\\app\\Views\\myFunctionNlm.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('myFunctionNlm', [], true)
+ 5 APPPATH\Controllers\Tester.php(38): view('myFunctionNlm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Tester->myFunctionNlm()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tester))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\ci4\\public\\index.php')
