@@ -19,6 +19,9 @@ class CriaTabelaDiasDaSemana extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
             ],
+            'descricao' => [
+                'type'       => 'TEXT',
+            ],
         ]);
         $this->forge->addKey('id', true);
         $this->forge->createTable('diasDaSemana');

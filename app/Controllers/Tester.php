@@ -17,17 +17,22 @@ class Tester extends BaseController
 
     public function myFunctionNlm()
     {
+        $diaModel = new \App\Models\DiaModel();
+
         $data = [
             'titulo' => 'Array de dias da semana:',
-            'diasDaSemana' => [
-                'segunda',
-                'terça',
-                'quarta',
-                'quinta',
-                'sexta',
-                'sábado',
-                'domingo'
-            ],
+            // 'diasDaSemana' => [
+            //     'segunda',
+            //     'terça',
+            //     'quarta',
+            //     'quinta',
+            //     'sexta',
+            //     'sábado',
+            //     'domingo'
+            // ],
+            'diasDaSemana' => $diaModel->findAll(),
+            // 'diasDaSemana' => $diaModel->findAll(2),
+            // 'diasDaSemana' => $diaModel->where('ativa', true)->findAll(),
         ];
 
         return view('myFunctionNlm', $data);

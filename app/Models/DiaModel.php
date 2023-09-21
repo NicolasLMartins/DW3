@@ -8,9 +8,9 @@ class DiaModel extends Model
 {
     protected $table            = 'diasDaSemana';
 
-    protected $returnType       = 'array';
+    protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
-    protected $allowedFields    = ['dia'];
+    protected $allowedFields    = ['dia', 'descricao'];
 
     // // Dates
     // protected $useTimestamps = false;

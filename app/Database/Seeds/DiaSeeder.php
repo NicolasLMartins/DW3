@@ -12,25 +12,32 @@ class DiaSeeder extends Seeder
 
         $diasDaSemana = [
             [
-                'dia' => 'Segunda'
+                'dia' => 'Segunda',
+                'descricao' => 'Descrição da atividade do dia.',
             ],
             [
-                'dia' => 'Terça'
+                'dia' => 'Terça',
+                'descricao' => 'Descrição da atividade do dia.',
             ],
             [
-                'dia' => 'Quarta'
+                'dia' => 'Quarta',
+                'descricao' => 'Descrição da atividade do dia.',
             ],
             [
-                'dia' => 'Quinta'
+                'dia' => 'Quinta',
+                'descricao' => 'Descrição da atividade do dia.',
             ],
             [
-                'dia' => 'Sexta'
+                'dia' => 'Sexta',
+                'descricao' => 'Descrição da atividade do dia.',
             ],
             [
-                'dia' => 'Sábado'
+                'dia' => 'Sábado',
+                'descricao' => 'Descrição da atividade do dia.',
             ],
             [
-                'dia' => 'Domingo'
+                'dia' => 'Domingo',
+                'descricao' => 'Descrição da atividade do dia.',
             ],
         ];
 
