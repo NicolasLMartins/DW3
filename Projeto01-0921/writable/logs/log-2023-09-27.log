@@ -1,0 +1,233 @@
+CRITICAL - 2023-09-27 03:05:12 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:05:12 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:17:11 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:17:12 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:17:20 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:17:40 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:25 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:26 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:27 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:27 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:28 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:29 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:29 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:29 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:30 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:30 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:19:31 --> Undefined variable $titulo
+in APPPATH/Controllers/Produtos.php on line 29.
+ 1 APPPATH/Controllers/Produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:34:33 --> Class "App\Controllers\ProdutoModel" not found
+in APPPATH/Controllers/Produtos.php on line 45.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->model()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:36:16 --> Undefined variable $produto_model
+in APPPATH/Controllers/Produtos.php on line 45.
+ 1 APPPATH/Controllers/Produtos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto_model', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Controllers/Produtos.php', 45)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->model()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:37:22 --> Class "App\Controllers\ProdutoModel" not found
+in APPPATH/Controllers/Produtos.php on line 45.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->model()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:37:48 --> Call to undefined method App\Controllers\Produtos::findAll()
+in APPPATH/Controllers/Produtos.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Produtos->model()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+ERROR - 2023-09-27 03:53:54 --> mysqli_sql_exception: Unknown column 'data_de_nascimento' in 'field list' in /home/nicolaslmartins/DW3/Projeto01-0921/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nicolaslmartins/DW3/Projeto01-0921/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/nicolaslmartins/DW3/Projeto01-0921/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/nicolaslmartins/DW3/Projeto01-0921/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/nicolaslmartins/DW3/Projeto01-0921/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/nicolaslmartins/DW3/Projeto01-0921/app/Database/Seeds/Clientes.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/nicolaslmartins/DW3/Projeto01-0921/system/Database/Seeder.php(146): App\Database\Seeds\Clientes->run()
+#6 /home/nicolaslmartins/DW3/Projeto01-0921/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 /home/nicolaslmartins/DW3/Projeto01-0921/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 /home/nicolaslmartins/DW3/Projeto01-0921/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 /home/nicolaslmartins/DW3/Projeto01-0921/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2023-09-27 03:54:53 --> Undefined constant "App\Controllers\‘clientes"
+in APPPATH/Controllers/Clientes.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:55:54 --> Undefined variable $clientes
+in APPPATH/Views/clientes/index.php on line 26.
+ 1 APPPATH/Views/clientes/index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Views/clientes/index.php', 26)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/nicolaslmartins/DW3/Projeto01-0921/app/Views/clientes/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH/Controllers/Clientes.php(14): view('clientes/index')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:57:58 --> Undefined variable $clientes
+in APPPATH/Views/clientes/index.php on line 26.
+ 1 APPPATH/Views/clientes/index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Views/clientes/index.php', 26)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/nicolaslmartins/DW3/Projeto01-0921/app/Views/clientes/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH/Controllers/Clientes.php(14): view('clientes/index')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 03:57:59 --> Undefined variable $clientes
+in APPPATH/Views/clientes/index.php on line 26.
+ 1 APPPATH/Views/clientes/index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Views/clientes/index.php', 26)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/nicolaslmartins/DW3/Projeto01-0921/app/Views/clientes/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH/Controllers/Clientes.php(14): view('clientes/index')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
+CRITICAL - 2023-09-27 12:28:38 --> Undefined variable $clientes
+in APPPATH/Views/clientes/index.php on line 26.
+ 1 APPPATH/Views/clientes/index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', '/home/nicolaslmartins/DW3/Projeto01-0921/app/Views/clientes/index.php', 26)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/nicolaslmartins/DW3/Projeto01-0921/app/Views/clientes/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH/Controllers/Clientes.php(14): view('clientes/index')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/nicolaslmartins/DW3/Projeto01-0921/public/index.php')
