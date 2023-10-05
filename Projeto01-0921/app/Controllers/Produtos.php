@@ -8,7 +8,9 @@ class Produtos extends BaseController
 {
     public function index()
     {
-        return "index Produtos";
+        $titulo = "Meus Produtos";
+        $data['titulo'] = $titulo;
+        echo view('produtos/index', $data);
     }
 
     public function novo()
