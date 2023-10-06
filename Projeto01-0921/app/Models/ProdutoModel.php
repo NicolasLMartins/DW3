@@ -7,20 +7,28 @@ use CodeIgniter\Model;
 class ProdutoModel extends Model
 {
     // protected $DBGroup          = 'default';
-    // protected $table            = 'produtos';
-    // protected $primaryKey       = 'id';
+    protected $table            = 'produtos';
+    protected $primaryKey       = 'id_produto';
     // protected $useAutoIncrement = true;
     // protected $returnType       = 'array';
     // protected $useSoftDeletes   = false;
     // protected $protectFields    = true;
-    // protected $allowedFields    = [];
+    protected $allowedFields    = [
+        'id_produto',
+        'nome',
+        'descricao',
+        'valor_de_compra',
+        'valor_de_venda',
+        'quantidade',
+        'validade',
+    ];
 
     // // Dates
-    // protected $useTimestamps = false;
+    protected $useTimestamps = true;
     // protected $dateFormat    = 'datetime';
-    // protected $createdField  = 'created_at';
-    // protected $updatedField  = 'updated_at';
-    // protected $deletedField  = 'deleted_at';
+    protected $createdField  = 'created_at';
+    protected $updatedField  = 'updated_at';
+    protected $deletedField  = 'deleted_at';
 
     // // Validation
     // protected $validationRules      = [];
