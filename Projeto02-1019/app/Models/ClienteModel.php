@@ -17,11 +17,9 @@ class ClienteModel extends Model
         'id_cliente',
         'nome',
         'data_de_nascimento',
-        'CPF',
         'telefone',
         'endereco',
         'limite_de_credito',
-        'dia_de_pagamento',
     ];
 
     // Dates
