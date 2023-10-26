@@ -22,10 +22,6 @@ class Clientes extends Migration
             'data_de_nascimento' => [
                 'type' => 'DATE',
             ],
-            'CPF' => [
-                'type' => 'VARCHAR',
-                'constraint' => 11,
-            ],
             'telefone' => [
                 'type' => 'VARCHAR',
                 'constraint' => 11,
@@ -36,9 +32,6 @@ class Clientes extends Migration
             ],
             'limite_de_credito' => [
                 'type' => 'DOUBLE',
-            ],
-            'dia_de_pagamento' => [
-                'type' => 'INT'
             ],
             'created_at' => [
                 'type' => 'DATETIME',
