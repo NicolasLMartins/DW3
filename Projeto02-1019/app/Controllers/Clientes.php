@@ -13,4 +13,11 @@ class Clientes extends BaseController
         echo view('clientes/novo');
         echo view('templates/footer');
     }
+
+    public function store()
+    {
+        $data =$this->request->getVar();
+
+        dd($data);
+    }
 }
