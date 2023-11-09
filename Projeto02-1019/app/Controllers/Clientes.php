@@ -12,6 +12,18 @@ class Clientes extends BaseController
     function __construct(){
         $this->cliente_model = new ClienteModel();
     }
+
+    public function index()
+    {
+        $clientes = $this->cliente_model->findAll();;
+
+        $data["clientes"] = $clientes;
+
+        echo view('templates/header');
+        echo view('clientes/index', $data);
+        echo view('templates/footer');
+    }
+    
     public function novo()
     {
         echo view('templates/header');
