@@ -7,6 +7,11 @@ use App\Models\ClienteModel;
 
 class Clientes extends BaseController
 {
+    private $cliente_model;
+
+    function __construct(){
+        $this->cliente_model = new ClienteModel();
+    }
     public function novo()
     {
         echo view('templates/header');
@@ -16,8 +21,11 @@ class Clientes extends BaseController
 
     public function store()
     {
-        $data =$this->request->getVar();
+        $data = $this->request->getVar();
 
-        dd($data);
+        // dd($data);
+
+        $this->cliente_model->insert($data);
+        return redirect()->to('clientes/novo');
     }
 }
