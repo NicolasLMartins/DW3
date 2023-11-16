@@ -5,13 +5,13 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Novo Cliente</h1>
+                    <h1 class="m-0">Atualizar Cliente</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="/clientes">Clientes</a></li>
                         <li class="breadcrumb-item"><a href="/inicio">Início</a></li>
-                        <li class="breadcrumb-item active">Novo</li>
+                        <li class="breadcrumb-item active"><a>Atualizar</a></li>
                         <a href="/clientes" style="margin-left: 15px;" class="btn btn-info">Voltar</a>
                     </ol>
                 </div><!-- /.col -->
@@ -40,19 +40,19 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="">Nome</label>
-                                            <input type="text" class="form-control" name="nome">
+                                            <input type="text" class="form-control" name="nome" value="<?= $cliente['nome'] ?>">
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group">
                                             <label for="">Data de Nascimento</label>
-                                            <input type="text" class="form-control" name="data_de_nascimento">
+                                            <input type="date" class="form-control" name="data_de_nascimento" value="<?= $cliente['data_de_nascimento'] ?>">
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group">
                                             <label for="">Telefone</label>
-                                            <input type="text" class="form-control" name="telefone">
+                                            <input type="text" class="form-control" name="telefone" value="<?= $cliente['telefone'] ?>">
                                         </div>
                                     </div>
                                 </div>
@@ -60,21 +60,24 @@
                                     <div class="col-lg-8">
                                         <div class="form-group">
                                             <label for="">Endereço</label>
-                                            <input type="text" class="form-control" name="endereco">
+                                            <input type="text" class="form-control" name="endereco" value="<?= $cliente['endereco'] ?>">
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="form-group">
                                             <label for="">Limite de Crédito</label>
-                                            <input type="text" class="form-control" name="limite_de_credito">
+                                            <input type="text" class="form-control" name="limite_de_credito" value="<?= $cliente['limite_de_credito'] ?>">
                                         </div>
                                     </div>
+
+                                    <input type="text" name="id_cliente" value="<?= $cliente['id_cliente'] ?>">
+                                    
                                 </div>
                             </div>
                             <!-- /.card-body -->
                             <!-- .card-footer -->
                             <div class="card-footer">
-                                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                                <button type="submit" class="btn btn-primary">Atualizar</button>
                             </div>
                             <!-- /.card-footer -->
                         </form>

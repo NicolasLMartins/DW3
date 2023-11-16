@@ -9,8 +9,9 @@
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Starter Page</li>
+                        <li class="breadcrumb-item"><a href="/inicio">Início</a></li>
+                        <li class="breadcrumb-item active">Clientes</li>
+                        <a href="/clientes" style="margin-left: 15px;" class="btn btn-info">Voltar</a>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -23,9 +24,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="card card-primary">
+                    <div class="card card-info">
                         <div class="card-header">
-                            <h3 class="card-title">Bordered Table</h3>
+                            <!-- <h3 class="card-title">Registros</h3> -->
+                            <a href="/clientes/novo" class="btn btn-primary">Novo Cliente</a>
                         </div>
 
                         <div class="card-body">
@@ -38,49 +40,29 @@
                                         <th>Telefone</th>
                                         <th>Endereço</th>
                                         <th>Limite de Crédito</th>
+                                        <th style="text-align: centerbbnh;">Ações</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php foreach ($clientes as $cliente): ?>
                                     <tr>
-                                        <td>1.</td>
-                                        <td>Update software</td>
+                                        <td> <?= $cliente['id_cliente'] ?></td>
+                                        <td> <?= $cliente['nome'] ?></td>
+                                        <td> <?= $cliente['data_de_nascimento'] ?></td>
+                                        <td> <?= $cliente['telefone'] ?></td>
+                                        <td> <?= $cliente['endereco'] ?></td>
+                                        <td> <?= $cliente['limite_de_credito'] ?></td>
+
                                         <td>
-                                            <div class="progress progress-xs">
-                                                <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
-                                            </div>
+                                            <a href="/clientes/exibir/<?= $cliente['id_cliente'] ?>"
+                                                class="btn btn-info">Exibir</a>
+                                            <a href="/clientes/editar/<?= $cliente['id_cliente'] ?>"
+                                                class="btn btn-warning">Editar</a>
+                                            <a href="/clientes/excluir/<?= $cliente['id_cliente'] ?>"
+                                                class="btn btn-danger">Excluir</a>
                                         </td>
-                                        <td><span class="badge bg-danger">55%</span></td>
                                     </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>Clean database</td>
-                                        <td>
-                                            <div class="progress progress-xs">
-                                                <div class="progress-bar bg-warning" style="width: 70%"></div>
-                                            </div>
-                                        </td>
-                                        <td><span class="badge bg-warning">70%</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>3.</td>
-                                        <td>Cron job running</td>
-                                        <td>
-                                            <div class="progress progress-xs progress-striped active">
-                                                <div class="progress-bar bg-primary" style="width: 30%"></div>
-                                            </div>
-                                        </td>
-                                        <td><span class="badge bg-primary">30%</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>4.</td>
-                                        <td>Fix and squish bugs</td>
-                                        <td>
-                                            <div class="progress progress-xs progress-striped active">
-                                                <div class="progress-bar bg-success" style="width: 90%"></div>
-                                            </div>
-                                        </td>
-                                        <td><span class="badge bg-success">90%</span></td>
-                                    </tr>
+                                    <?php endforeach; ?>
                                 </tbody>
                             </table>
                         </div>

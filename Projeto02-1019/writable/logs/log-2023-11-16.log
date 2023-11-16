@@ -1,0 +1,19 @@
+CRITICAL - 2023-11-16 17:09:11 --> Undefined array key "id_cliente"
+in APPPATH\Views\clientes\index.php on line 46.
+ 1 APPPATH\Views\clientes\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cliente"', 'C:\\Users\\Técnico\\Desktop\\_\\DW3\\Projeto02-1019\\app\\Views\\clientes\\index.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Técnico\\Desktop\\_\\DW3\\Projeto02-1019\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(23): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Técnico\\Desktop\\_\\DW3\\Projeto02-1019\\public\\index.php')
+CRITICAL - 2023-11-16 19:47:15 --> Too few arguments to function App\Controllers\Clientes::editar(), 0 passed in C:\Users\Técnico\Desktop\_\DW3\Projeto02-1019\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Clientes.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Técnico\\Desktop\\_\\DW3\\Projeto02-1019\\public\\index.php')
