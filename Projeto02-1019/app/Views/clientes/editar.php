@@ -70,11 +70,7 @@
                                         </div>
                                     </div>
 
-<<<<<<< HEAD
                                     <input type="hidden" name="id_cliente" value="<?= $cliente['id_cliente'] ?>">
-=======
-                                    <input type="text" name="id_cliente" value="<?= $cliente['id_cliente'] ?>">
->>>>>>> 8ced19af7357e35c92ecc72a7872fa38100505e7
                                     
                                 </div>
                             </div>
