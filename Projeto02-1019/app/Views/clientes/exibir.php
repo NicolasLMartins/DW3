@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <!-- .card -->
-                    <div class="card card-primary">
+                    <div class="card card-info">
                         <!-- .card-header -->
                         <div class="card-header">
                             <h3 class="card-title">Dados Pessoais</h3>

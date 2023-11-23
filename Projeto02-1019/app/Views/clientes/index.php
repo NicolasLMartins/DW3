@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="card card-info">
+                    <div class="card">
                         <div class="card-header">
                             <!-- <h3 class="card-title">Registros</h3> -->
                             <a href="/clientes/novo" class="btn btn-primary">Novo Cliente</a>
@@ -33,14 +33,14 @@
                         <div class="card-body">
                             <table class="table table-bordered">
                                 <thead>
-                                    <tr>
+                                    <tr style="text-align: center;">
                                         <th style="width: 10px">Código</th>
                                         <th>Nome</th>
                                         <th>Data de Nascimento</th>
                                         <th>Telefone</th>
                                         <th>Endereço</th>
                                         <th>Limite de Crédito</th>
-                                        <th style="text-align: centerbbnh;">Ações</th>
+                                        <th>Ações</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -53,7 +53,7 @@
                                         <td> <?= $cliente['endereco'] ?></td>
                                         <td> <?= $cliente['limite_de_credito'] ?></td>
 
-                                        <td>
+                                        <td style="text-align: center;">
                                             <a href="/clientes/exibir/<?= $cliente['id_cliente'] ?>"
                                                 class="btn btn-info">Exibir</a>
                                             <a href="/clientes/editar/<?= $cliente['id_cliente'] ?>"

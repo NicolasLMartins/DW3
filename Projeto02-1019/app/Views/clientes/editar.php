@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <!-- .card -->
-                    <div class="card card-primary">
+                    <div class="card card-warning">
                         <!-- .card-header -->
                         <div class="card-header">
                             <h3 class="card-title">Dados Pessoais</h3>
@@ -77,7 +77,7 @@
                             <!-- /.card-body -->
                             <!-- .card-footer -->
                             <div class="card-footer">
-                                <button type="submit" class="btn btn-primary">Atualizar</button>
+                                <button type="submit" class="btn btn-warning">Atualizar</button>
                             </div>
                             <!-- /.card-footer -->
                         </form>
