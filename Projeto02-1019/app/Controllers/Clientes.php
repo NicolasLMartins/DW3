@@ -67,6 +67,9 @@ class Clientes extends BaseController
         $id_cliente = $this->request->getVar('id_cliente');
         $this->cliente_model->where('id_cliente', $id_cliente)->delete();
 
+        $session = session();
+        $session->setFlashdata("alert", "success_delete");
+
         return redirect()->to('/clientes');
     }
 

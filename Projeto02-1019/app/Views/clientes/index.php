@@ -23,21 +23,33 @@
     <div class="content">
         <div class="container-fluid">
 
-            <?php 
-                $session = session();
-                $alert = $session->get('alert');
+            <?php
+            $session = session();
+            $alert = $session->get('alert');
             ?>
 
 
-            <?php if (isset($alert) && $alert == 'success_create') : ?>
-            <div class="row">
-                <div class="col">
-                    <div class="alert alert-success alert-dismissible">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        <h5><i class="icon fas fa-check"></i>Cliente cadastrado com sucesso!</h5>
+            <?php if (isset($alert)) : ?>
+                <?php if ($alert == 'success_create') : ?>
+                    <div class="row">
+                        <div class="col">
+                            <div class="alert alert-success alert-dismissible">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                <h5><i class="icon fas fa-check"></i>Cliente cadastrado com sucesso!</h5>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>  
+
+                <?php elseif ($alert == 'success_delete') : ?>
+                    <div class="row">
+                        <div class="col">
+                            <div class="alert alert-success alert-dismissible">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                <h5><i class="icon fas fa-check"></i>Cliente excluído com sucesso!</h5>
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
             <?php endif; ?>
 
 
@@ -63,25 +75,21 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php foreach ($clientes as $cliente): ?>
-                                    <tr>
-                                        <td> <?= $cliente['id_cliente'] ?></td>
-                                        <td> <?= $cliente['nome'] ?></td>
-                                        <td> <?= $cliente['data_de_nascimento'] ?></td>
-                                        <td> <?= $cliente['telefone'] ?></td>
-                                        <td> <?= $cliente['endereco'] ?></td>
-                                        <td> <?= $cliente['limite_de_credito'] ?></td>
+                                    <?php foreach ($clientes as $cliente) : ?>
+                                        <tr>
+                                            <td> <?= $cliente['id_cliente'] ?></td>
+                                            <td> <?= $cliente['nome'] ?></td>
+                                            <td> <?= $cliente['data_de_nascimento'] ?></td>
+                                            <td> <?= $cliente['telefone'] ?></td>
+                                            <td> <?= $cliente['endereco'] ?></td>
+                                            <td> <?= $cliente['limite_de_credito'] ?></td>
 
-                                        <td style="text-align: center;">
-                                            <a href="/clientes/exibir/<?= $cliente['id_cliente'] ?>"
-                                                class="btn btn-info">Exibir</a>
-                                            <a href="/clientes/editar/<?= $cliente['id_cliente'] ?>"
-                                                class="btn btn-warning">Editar</a>
-                                            <button type="button" class="btn btn-danger"
-                                                onclick="document.getElementById('id_cliente').value = '<?= $cliente['id_cliente'] ?>'"
-                                                data-toggle="modal" data-target="#modal-confirmDelete">Excluir</button>
-                                        </td>
-                                    </tr>
+                                            <td style="text-align: center;">
+                                                <a href="/clientes/exibir/<?= $cliente['id_cliente'] ?>" class="btn btn-info">Exibir</a>
+                                                <a href="/clientes/editar/<?= $cliente['id_cliente'] ?>" class="btn btn-warning">Editar</a>
+                                                <button type="button" class="btn btn-danger" onclick="document.getElementById('id_cliente').value = '<?= $cliente['id_cliente'] ?>'" data-toggle="modal" data-target="#modal-confirmDelete">Excluir</button>
+                                            </td>
+                                        </tr>
                                     <?php endforeach; ?>
                                 </tbody>
                             </table>
