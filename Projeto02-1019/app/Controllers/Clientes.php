@@ -39,6 +39,9 @@ class Clientes extends BaseController
         if (isset($data['id_cliente'])):
             $this->cliente_model->where('id_cliente', $data['id_cliente'])->set($data)->update();
 
+            $session = session();
+            $session->setFlashdata("alert", "success_update");
+            
             return redirect()->to("/clientes/editar/{$data['id_cliente']}");
         endif;
 
