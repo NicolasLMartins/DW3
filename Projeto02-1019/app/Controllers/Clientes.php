@@ -58,9 +58,10 @@ class Clientes extends BaseController
         echo view('templates/footer');
     }
 
-    public function excluir($id_cliente)
+    public function excluir()
     {
-        $cliente = $this->cliente_model->where('id_cliente', $id_cliente)->delete();
+        $id_cliente = $this->request->getVar('id_cliente');
+        $this->cliente_model->where('id_cliente', $id_cliente)->delete();
 
         return redirect()->to('/clientes');
     }
