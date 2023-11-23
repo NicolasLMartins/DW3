@@ -74,7 +74,7 @@
                                     </div>
                                 </div>
 
-                                <input type="text" name="id_cliente" value="<?= $cliente['id_cliente'] ?>" disabled>
+                                <input type="hidden" name="id_cliente" value="<?= $cliente['id_cliente'] ?>" disabled>
 
                             </div>
                         </div>
