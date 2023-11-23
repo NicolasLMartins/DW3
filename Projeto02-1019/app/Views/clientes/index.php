@@ -11,7 +11,7 @@
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="/inicio">Início</a></li>
                         <li class="breadcrumb-item active">Clientes</li>
-                        <a href="/clientes" style="margin-left: 15px;" class="btn btn-info">Voltar</a>
+                        <a href="/inicio" style="margin-left: 15px;" class="btn btn-info">Voltar</a>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -86,22 +86,29 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php foreach ($clientes as $cliente) : ?>
-                                        <tr>
-                                            <td> <?= $cliente['id_cliente'] ?></td>
-                                            <td> <?= $cliente['nome'] ?></td>
-                                            <td> <?= $cliente['data_de_nascimento'] ?></td>
-                                            <td> <?= $cliente['telefone'] ?></td>
-                                            <td> <?= $cliente['endereco'] ?></td>
-                                            <td> <?= $cliente['limite_de_credito'] ?></td>
 
-                                            <td style="text-align: center;">
-                                                <a href="/clientes/exibir/<?= $cliente['id_cliente'] ?>" class="btn btn-info">Exibir</a>
-                                                <a href="/clientes/editar/<?= $cliente['id_cliente'] ?>" class="btn btn-warning">Editar</a>
-                                                <button type="button" class="btn btn-danger" onclick="document.getElementById('id_cliente').value = '<?= $cliente['id_cliente'] ?>'" data-toggle="modal" data-target="#modal-confirmDelete">Excluir</button>
-                                            </td>
+                                    <?php if (!isset($clientes)) : ?>
+                                        <?php foreach ($clientes as $cliente) : ?>
+                                            <tr>
+                                                <td> <?= $cliente['id_cliente'] ?></td>
+                                                <td> <?= $cliente['nome'] ?></td>
+                                                <td> <?= $cliente['data_de_nascimento'] ?></td>
+                                                <td> <?= $cliente['telefone'] ?></td>
+                                                <td> <?= $cliente['endereco'] ?></td>
+                                                <td> <?= $cliente['limite_de_credito'] ?></td>
+
+                                                <td style="text-align: center;">
+                                                    <a href="/clientes/exibir/<?= $cliente['id_cliente'] ?>" class="btn btn-info">Exibir</a>
+                                                    <a href="/clientes/editar/<?= $cliente['id_cliente'] ?>" class="btn btn-warning">Editar</a>
+                                                    <button type="button" class="btn btn-danger" onclick="document.getElementById('id_cliente').value = '<?= $cliente['id_cliente'] ?>'" data-toggle="modal" data-target="#modal-confirmDelete">Excluir</button>
+                                                </td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                    <?php else : ?>
+                                        <tr>
+                                            <td colspan="7">Nenhum cliente cadastrado</td>
                                         </tr>
-                                    <?php endforeach; ?>
+                                    <?php endif; ?>
                                 </tbody>
                             </table>
                         </div>
