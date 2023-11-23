@@ -43,6 +43,10 @@ class Clientes extends BaseController
         endif;
 
         $this->cliente_model->insert($data);
+
+        $session = session();
+        $session->setFlashdata("alert", "success_create");
+        
         return redirect()->to('/clientes');
     }
 
