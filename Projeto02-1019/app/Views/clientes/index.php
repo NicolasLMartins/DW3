@@ -87,7 +87,7 @@
                                 </thead>
                                 <tbody>
 
-                                    <?php if (!isset($clientes)) : ?>
+                                    <?php if (isset($clientes)) : ?>
                                         <?php foreach ($clientes as $cliente) : ?>
                                             <tr>
                                                 <td> <?= $cliente['id_cliente'] ?></td>
