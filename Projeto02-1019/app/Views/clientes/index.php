@@ -11,7 +11,7 @@
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="/inicio">Início</a></li>
                         <li class="breadcrumb-item active">Clientes</li>
-                        <a href="/inicio" style="margin-left: 15px;" class="btn btn-info">Voltar</a>
+                        <a href="/inicio" style="margin-left: 15px;" class="btn btn-info"><i class="fas fa-arrow-left"></i> Voltar</a>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -69,7 +69,7 @@
                     <div class="card">
                         <div class="card-header">
                             <!-- <h3 class="card-title">Registros</h3> -->
-                            <a href="/clientes/novo" class="btn btn-primary">Novo Cliente</a>
+                            <a href="/clientes/novo" class="btn btn-primary"><i class="fas fa-user-plus"></i> Novo Cliente</a>
                         </div>
 
                         <div class="card-body">
@@ -98,9 +98,9 @@
                                                 <td> <?= $cliente['limite_de_credito'] ?></td>
 
                                                 <td style="text-align: center;">
-                                                    <a href="/clientes/exibir/<?= $cliente['id_cliente'] ?>" class="btn btn-info">Exibir</a>
-                                                    <a href="/clientes/editar/<?= $cliente['id_cliente'] ?>" class="btn btn-warning">Editar</a>
-                                                    <button type="button" class="btn btn-danger" onclick="document.getElementById('id_cliente').value = '<?= $cliente['id_cliente'] ?>'" data-toggle="modal" data-target="#modal-confirmDelete">Excluir</button>
+                                                    <a href="/clientes/exibir/<?= $cliente['id_cliente'] ?>" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                                    <a href="/clientes/editar/<?= $cliente['id_cliente'] ?>" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    <button type="button" class="btn btn-danger" onclick="document.getElementById('id_cliente').value = '<?= $cliente['id_cliente'] ?>'" data-toggle="modal" data-target="#modal-confirmDelete"><i class="fas fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>

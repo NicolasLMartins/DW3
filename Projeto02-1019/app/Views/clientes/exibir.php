@@ -12,7 +12,8 @@
                         <li class="breadcrumb-item"><a href="/inicio">Início</a></li>
                         <li class="breadcrumb-item"><a href="/clientes">Clientes</a></li>
                         <li class="breadcrumb-item active">Dados do Cliente</li>
-                        <a href="/clientes" style="margin-left: 15px;" class="btn btn-info">Voltar</a>
+                        <a href="/clientes" style="margin-left: 15px;" class="btn btn-info"><i
+                                class="fas fa-arrow-left"></i> Voltar</a>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->

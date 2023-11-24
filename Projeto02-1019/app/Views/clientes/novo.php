@@ -12,7 +12,7 @@
                         <li class="breadcrumb-item"><a href="/inicio">Início</a></li>
                         <li class="breadcrumb-item"><a href="/clientes">Clientes</a></li>
                         <li class="breadcrumb-item active">Novo</li>
-                        <a href="/clientes" style="margin-left: 15px;" class="btn btn-info">Voltar</a>
+                        <a href="/clientes" style="margin-left: 15px;" class="btn btn-info"><i class="fas fa-arrow-left"></i> Voltar</a>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -74,7 +74,7 @@
                             <!-- /.card-body -->
                             <!-- .card-footer -->
                             <div class="card-footer">
-                                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                                <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Cadastrar</button>
                             </div>
                             <!-- /.card-footer -->
                         </form>
