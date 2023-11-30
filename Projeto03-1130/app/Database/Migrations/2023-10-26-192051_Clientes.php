@@ -24,7 +24,7 @@ class Clientes extends Migration
             ],
             'telefone' => [
                 'type' => 'VARCHAR',
-                'constraint' => 11,
+                'constraint' => 15,
             ],
             'endereco' => [
                 'type' => 'VARCHAR',
