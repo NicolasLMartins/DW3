@@ -19,4 +19,21 @@ class Funcionarios extends BaseController
 
         return view('funcionarios/index', $data);
     }
+
+    public function novo()
+    {
+        return view('funcionarios/novo');
+    }
+
+    public function store()
+    {
+        $dados = $this->request->getVar();
+
+        $this->funcionario_model->insert($dados);
+
+        $session = session();
+        $session->setFlashdata('alert', 'success_create');
+
+        return redirect()->to('/funcionarios');
+    }
 }
