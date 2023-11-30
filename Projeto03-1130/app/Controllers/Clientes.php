@@ -19,16 +19,12 @@ class Clientes extends BaseController
 
         $data["clientes"] = $clientes;
 
-        echo view('templates/header');
-        echo view('clientes/index', $data);
-        echo view('templates/footer');
+        return view('clientes/index', $data);
     }
     
     public function novo()
     {
-        echo view('templates/header');
-        echo view('clientes/novo');
-        echo view('templates/footer');
+        return view('clientes/novo');
     }
 
     public function store()
@@ -60,9 +56,7 @@ class Clientes extends BaseController
 
         $data['cliente'] = $cliente;
 
-        echo view('templates/header');
-        echo view('clientes/editar', $data);
-        echo view('templates/footer');
+        return view('clientes/editar', $data);
     }
 
     public function excluir()
@@ -82,8 +76,6 @@ class Clientes extends BaseController
 
         $data['cliente'] = $cliente;
 
-        echo view('templates/header');
-        echo view('clientes/exibir', $data);
-        echo view('templates/footer');
+        return view('clientes/exibir', $data);
     }
 }
