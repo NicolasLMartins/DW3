@@ -36,4 +36,14 @@ class Funcionarios extends BaseController
 
         return redirect()->to('/funcionarios');
     }
+
+    public function editar($id_funcionario)
+    {
+        $data['funcionario'] = $this->funcionario_model
+
+        ->where('id_funcionario', $id_funcionario)
+        ->first();
+
+        return view('funcionarios/editar');
+    }
 }

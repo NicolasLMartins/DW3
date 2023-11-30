@@ -99,8 +99,11 @@
                                             <td> <?= $funcionario['cargo'] ?></td>
                                             <td> <?= $funcionario['salario'] ?></td>
                                             <td> <?= $funcionario['dia_de_pagamento'] ?></td>
-                                            <td>
-                                                <!-- Botões de Controle. -->
+
+                                            <td style="text-align: center;">
+                                                <a href="/funcionarios/exibir/<?= $funcionario['id_funcionario'] ?>" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                                <a href="/funcionarios/editar/<?= $funcionario['id_funcionario'] ?>" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                <button type="button" class="btn btn-danger" onclick="document.getElementById('id_funcionario').value = '<?= $funcionario['id_funcionario'] ?>'" data-toggle="modal" data-target="#modal-confirmDelete"><i class="fas fa-trash"></i></button>
                                             </td>
                                         </tr>
                                     <?php endforeach; ?>
@@ -140,7 +143,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p>Deseja realmente excluir esse funcionario?</p>
+                        <p>Deseja realmente excluir esse funcionário?</p>
 
                         <input type="hidden" name="id_funcionario" id="id_funcionario" value="">
                     </div>
