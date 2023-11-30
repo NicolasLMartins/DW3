@@ -27,7 +27,7 @@
                     <div class="col">
                         <div class="alert alert-success alert-dismissible">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <h5 class="m-0"><i class="icon fas fa-check"></i>funcionario cadastrado com sucesso!</h5>
+                            <h5 class="m-0"><i class="icon fas fa-check"></i>Funcionário cadastrado com sucesso!</h5>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                     <div class="col">
                         <div class="alert alert-success alert-dismissible">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <h5 class="m-0"><i class="icon fas fa-check"></i>funcionario excluído com sucesso!</h5>
+                            <h5 class="m-0"><i class="icon fas fa-check"></i>Funcionário excluído com sucesso!</h5>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     <div class="col">
                         <div class="alert alert-success alert-dismissible">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <h5 class="m-0"><i class="icon fas fa-check"></i>funcionario atualizado com sucesso!</h5>
+                            <h5 class="m-0"><i class="icon fas fa-check"></i>Funcionário atualizado com sucesso!</h5>
                         </div>
                     </div>
                 </div>
