@@ -11,6 +11,7 @@ class MainSeeder extends Seeder
         for ($i=0; $i < 5; $i++) { 
             $this->call('ClientesSeeder');
             $this->call('FuncionariosSeeder');
+            $this->call('ProdutosSeeder');
         }
     }
 }
