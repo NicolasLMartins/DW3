@@ -51,9 +51,9 @@ class Funcionarios extends BaseController
     {
         $data['funcionario'] = $this->funcionario_model
 
-        ->where('id_funcionario', $id_funcionario)
-        ->first();
+            ->where('id_funcionario', $id_funcionario)
+            ->first();
 
-        return view('funcionarios/editar');
+        return view('funcionarios/form', $data);
     }
 }
