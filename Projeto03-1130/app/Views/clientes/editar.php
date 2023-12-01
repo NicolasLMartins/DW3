@@ -68,7 +68,7 @@
                         <!-- /.card-body -->
                         <!-- .card-footer -->
                         <div class="card-footer">
-                            <button type="submit" class="btn btn-warning">Atualizar</button>
+                            <button type="submit" class="btn btn-warning"><i class="fas fa-edit"></i> Atualizar</button>
                         </div>
                         <!-- /.card-footer -->
                     </form>
