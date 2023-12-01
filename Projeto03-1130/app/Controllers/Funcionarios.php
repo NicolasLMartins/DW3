@@ -68,4 +68,13 @@ class Funcionarios extends BaseController
         $session->setFlashdata('alert', 'success_delete');
         return redirect()->to('/funcionarios');
     }
+
+    public function exibir($id_funcionario)
+    {
+        $funcionario = $this->funcionario_model->where('id_funcionario', $id_funcionario)->first();
+
+        $data['funcionario'] = $funcionario;
+
+        return view('funcionarios/exibir', $data);
+    }
 }
