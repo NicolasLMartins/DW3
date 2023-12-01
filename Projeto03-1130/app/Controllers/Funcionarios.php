@@ -22,7 +22,7 @@ class Funcionarios extends BaseController
 
     public function novo()
     {
-        return view('funcionarios/novo');
+        return view('funcionarios/form');
     }
 
     public function store()
