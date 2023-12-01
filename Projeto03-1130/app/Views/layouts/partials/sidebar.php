@@ -15,9 +15,7 @@
                 <li class="nav-item">
                     <a href="/inicio" class="nav-link">
                         <i class="nav-icon fas fa-home"></i>
-                        <p>
-                            Início
-                        </p>
+                        <p>Início</p>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -28,10 +26,15 @@
                 </li>
                 <li class="nav-item">
                     <a href="/funcionarios" class="nav-link">
-                        <i class="nav-icon fas fa-users"></i>
-                        <p>
-                            Funcionários
-                        </p>
+                        <i class="nav-icon fas fa-user-tie"></i>
+                        <p>Funcionários</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/produtos" class="nav-link">
+                        <i class="nav-icon fas fa-box-open"></i>
+                        <p>Produtos</p>
                     </a>
                 </li>
             </ul>

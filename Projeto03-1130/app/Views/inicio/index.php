@@ -6,6 +6,7 @@
 
 <li class="breadcrumb-item"><a href="/clientes">Clientes</a></li>
 <li class="breadcrumb-item"><a href="/funcionarios">Funcionários</a></li>
+<li class="breadcrumb-item"><a href="/produtos">Produtos</a></li>
 
 <?= $this->endSection(); ?>
 
