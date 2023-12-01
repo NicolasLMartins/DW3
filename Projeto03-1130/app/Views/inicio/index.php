@@ -2,6 +2,12 @@
 <?= $this->section('conteudo'); ?>
 
 <?= $this->section('pageHeaderTitle'); ?>Seja Bem-Vindo!<?= $this->endSection(); ?>
+<?= $this->section('breadcrumb'); ?>
+
+<li class="breadcrumb-item"><a href="/clientes">Clientes</a></li>
+<li class="breadcrumb-item"><a href="/funcionarios">Funcionários</a></li>
+
+<?= $this->endSection(); ?>
 
 <!-- Main content -->
 <div class="content">
