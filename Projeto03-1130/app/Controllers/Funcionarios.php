@@ -36,7 +36,7 @@ class Funcionarios extends BaseController
             $session = session();
             $session->setFlashdata("alert", "success_update");
 
-            return redirect()->to("/funcionarios/form/{$data['id_funcionario']}");
+            return redirect()->to("/funcionarios/editar/{$data['id_funcionario']}");
         endif;
 
         $this->funcionario_model->insert($data);
