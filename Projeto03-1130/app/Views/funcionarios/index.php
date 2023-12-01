@@ -88,17 +88,17 @@
                                 <?php if (!empty($funcionarios)) : ?>
                                     <?php foreach ($funcionarios as $funcionario) : ?>
                                         <tr>
-                                            <td> <?= $funcionario['id_funcionario'] ?></td>
-                                            <td> <?= $funcionario['nome'] ?></td>
-                                            <td> <?= $funcionario['data_de_nascimento'] ?></td>
-                                            <td> <?= $funcionario['rg'] ?></td>
-                                            <td> <?= $funcionario['cpf'] ?></td>
-                                            <td> <?= $funcionario['telefone'] ?></td>
-                                            <td> <?= $funcionario['endereco'] ?></td>
-                                            <td> <?= $funcionario['data_de_contratacao'] ?></td>
-                                            <td> <?= $funcionario['cargo'] ?></td>
-                                            <td> <?= $funcionario['salario'] ?></td>
-                                            <td> <?= $funcionario['dia_de_pagamento'] ?></td>
+                                            <td><?= $funcionario['id_funcionario'] ?></td>
+                                            <td><?= $funcionario['nome'] ?></td>
+                                            <td><?= $funcionario['data_de_nascimento'] ?></td>
+                                            <td><?= $funcionario['rg'] ?></td>
+                                            <td><?= $funcionario['cpf'] ?></td>
+                                            <td><?= $funcionario['telefone'] ?></td>
+                                            <td><?= $funcionario['endereco'] ?></td>
+                                            <td><?= $funcionario['data_de_contratacao'] ?></td>
+                                            <td><?= $funcionario['cargo'] ?></td>
+                                            <td><?= $funcionario['salario'] ?></td>
+                                            <td><?= $funcionario['dia_de_pagamento'] ?></td>
 
                                             <td style="text-align: center;">
                                                 <a href="/funcionarios/exibir/<?= $funcionario['id_funcionario'] ?>" class="btn btn-info"><i class="fas fa-eye"></i></a>
@@ -115,16 +115,6 @@
                             </tbody>
                         </table>
                     </div>
-
-                    <!-- <div class="card-footer clearfix">
-                            <ul class="pagination pagination-sm m-0 float-right">
-                                <li class="page-item"><a class="page-link" href="#">«</a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">»</a></li>
-                            </ul>
-                        </div> -->
                 </div>
             </div>
         </div>
