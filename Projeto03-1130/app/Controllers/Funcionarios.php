@@ -56,4 +56,16 @@ class Funcionarios extends BaseController
 
         return view('funcionarios/form', $data);
     }
+
+    public function excluir()
+    {
+        $id_funcionario = $this->request->getVar('id_funcionario');
+
+        $this->funcionario_model
+            ->where('id_funcionario', $id_funcionario)
+            ->delete();
+        $session = session();
+        $session->setFlashdata('alert', 'success_delete');
+        return redirect()->to('/funcionarios');
+    }
 }
