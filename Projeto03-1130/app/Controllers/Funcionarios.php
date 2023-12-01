@@ -27,12 +27,22 @@ class Funcionarios extends BaseController
 
     public function store()
     {
-        $dados = $this->request->getVar();
+        $data = $this->request->getVar();
 
-        $this->funcionario_model->insert($dados);
+        // dd($data);
+        if (isset($data['id_funcionario'])) :
+            $this->funcionario_model->where('id_funcionario', $data['id_funcionario'])->set($data)->update();
+
+            $session = session();
+            $session->setFlashdata("alert", "success_update");
+
+            return redirect()->to("/funcionarios/form/{$data['id_funcionario']}");
+        endif;
+
+        $this->funcionario_model->insert($data);
 
         $session = session();
-        $session->setFlashdata('alert', 'success_create');
+        $session->setFlashdata("alert", "success_create");
 
         return redirect()->to('/funcionarios');
     }
