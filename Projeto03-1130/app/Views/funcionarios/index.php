@@ -69,7 +69,7 @@
                         <table class="table table-bordered">
                             <thead>
                                 <tr style="text-align: center;">
-                                    <th style="width: 10px">Cód.:</th>
+                                    <th style="width: 10px">Código</th>
                                     <th>Nome</th>
                                     <th>Data de Nascimento</th>
                                     <th>RG</th>
